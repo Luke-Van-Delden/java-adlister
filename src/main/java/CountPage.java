@@ -10,12 +10,6 @@ import java.io.PrintWriter;
 public class CountPage extends HttpServlet {
     private int hitCount;
 
-    public void init()
-    {
-        // Reset hit counter.
-        hitCount = 0;
-    }
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         String reset;
