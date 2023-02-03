@@ -10,16 +10,7 @@
 <head>
     <title>Navbar</title>
     <link rel="stylesheet" href="/partials/styles.css">
-<%--    <style>--%>
-<%--        ul {--%>
-<%--            display: flex;--%>
-<%--            justify-content: space-around;--%>
-<%--        }--%>
-<%--        ul li {--%>
-<%--            display: inline;--%>
-<%--            font-size: 2em;--%>
-<%--        }--%>
-<%--    </style>--%>
+
 </head>
 <body>
 <ul id="menu">
