@@ -14,7 +14,7 @@
 </head>
 <body>
 <jsp:include page="partials/navbar.jsp" />
-<form action="/login.jsp" method="post">
+<form action="/login" method="post">
     <label for="uname">Username: </label><br>
     <input type="text" id="uname" name="uname"><br>
     <label for="pword">Password:</label><br>
@@ -22,25 +22,21 @@
     <input type="submit" value="Submit">
 </form>
 
-<%! String uname; %>
-<%! String pword; %>
-<%--<%! String success; %>--%>
-<% uname = request.getParameter("uname"); %>
-<% pword = request.getParameter("pword"); %>
+<%--<%! String uname; %>--%>
+<%--<%! String pword; %>--%>
+<%--<% uname = request.getParameter("uname"); %>--%>
+<%--<% pword = request.getParameter("pword"); %>--%>
 
-<%--<%if (uname.equals("admin") && pword.equals("password")){--%>
-<%--    success = "<h1>Success</h1>";--%>
+
+<%--<% if(request.getMethod().equalsIgnoreCase("post")){--%>
+<%-- String uname;--%>
+<%-- String pword;--%>
+<%-- uname = request.getParameter("uname");--%>
+<%-- pword = request.getParameter("pword");--%>
+<%-- if(uname.equals("admin") && pword.equals("password")){--%>
+<%--     response.sendRedirect("/profile.jsp");--%>
+<%-- }--%>
 <%--}%>--%>
-
-<% if(request.getMethod().equalsIgnoreCase("post")){
- String uname;
- String pword;
- uname = request.getParameter("uname");
- pword = request.getParameter("pword");
- if(uname.equals("admin") && pword.equals("password")){
-     response.sendRedirect("/profile.jsp");
- }
-}%>
 
 
 <%--<c:if test="${param.uname != null} && ${param.pword != null}">--%>
