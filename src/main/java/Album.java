@@ -9,6 +9,13 @@ public class Album implements Serializable {
     private String genre;
 
 
+    public Album(String artist, String name, Date release_date, float sales, String genre) {
+        this.artist = artist;
+        this.name = name;
+        this.release_date = release_date;
+        this.sales = sales;
+        this.genre = genre;
+    }
 
     public Album() {
     }
