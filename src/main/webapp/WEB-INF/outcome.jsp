@@ -2,15 +2,16 @@
   Created by IntelliJ IDEA.
   User: lukevandelden
   Date: 2/3/23
-  Time: 2:51 PM
+  Time: 3:30 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>View Color</title>
+    <title>RESULTS</title>
 </head>
-<body style="background-color: ${color}">
+<body>
+<h1>You ${outcome}!</h1>
 
 </body>
 </html>
